@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 const SW = require('southwind')
 
+import RC from 'southwind-react'
+
 export default function Home() {
   let str = `
     h2 { 
@@ -12,10 +14,12 @@ export default function Home() {
     }    
 
   `
+
   return (
     <div >
       --
-      <style dangerouslySetInnerHTML={{__html: SW.processSWScript(str)}}></style>
+
+      <RC name={"asdfasdf"}></RC>
       <h2>Test</h2>
     </div>
   )

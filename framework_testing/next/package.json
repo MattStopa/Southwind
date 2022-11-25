@@ -15,7 +15,8 @@
     "next": "13.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "southwind": "file:../..",
+    "southwind": "file:../../",
+    "southwind-react": "file:../../react-component",
     "typescript": "4.9.3"
   }
 }
