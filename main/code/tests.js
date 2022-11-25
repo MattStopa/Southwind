@@ -1,4 +1,4 @@
-import SWCSS from './southwind.js'
+const SWCSS = require('./southwind.js')
 
 
 function isEqual(v1, v2, spaceSensitive = false) {

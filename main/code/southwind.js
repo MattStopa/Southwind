@@ -1,4 +1,4 @@
-
+const browserRender = require('./browserRender.js')
 
 class __SWCSS_PARSER {
   alreadyInCodeSegement = false;
@@ -389,7 +389,7 @@ class __SWCSS_CLASS_STRING_PROCESSOR {
   }
 }
 
-export default class SWCSS {
+class SWCSS {
   static classesAlreadyAdded = {};
 
   static processSWClassString(swCode) { 
@@ -454,3 +454,9 @@ export default class SWCSS {
   }
 
 }
+
+if (typeof window !== 'undefined') {
+  browserRender()
+}
+
+module.exports = SWCSS;
