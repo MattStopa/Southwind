@@ -5,7 +5,7 @@
   "main": "code/southwind.js",
   "scripts": {
     "test": "node ./code/tests.js",
-    "build": ".\\node_modules\\.bin\\esbuild .\\code\\browserRender.js --bundle --minify  --outfile=dist/swcss.js && node generatePlayground.js"
+    "build": ".\\node_modules\\.bin\\esbuild .\\code\\southwind.js --bundle --minify  --outfile=dist/swcss.js && node generatePlayground.js"
   },
   "author": "",
   "license": "ISC",
