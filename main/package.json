@@ -5,7 +5,8 @@
   "main": "index.js",
  
   "scripts": {
-    "test": "node ./code/tests.js"
+    "test": "node ./code/tests.js",
+    "build": ".\\node_modules\\.bin\\esbuild .\\code\\southwind.js --bundle --minify  --outfile=dist/swcss.js"
   },
   "author": "",
   "license": "ISC",

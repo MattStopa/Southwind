@@ -1,3 +1,5 @@
+const SWCSS = require('./southwind.js')
+
 function __SWSS_BROWSER_RENDER() {
 
     document.querySelector('body').style['display'] = 'none'
@@ -140,4 +142,9 @@ function __SWSS_BROWSER_RENDER() {
   }
 
 
-  module.exports = __SWSS_BROWSER_RENDER;
+  if (typeof window !== 'undefined') {
+    __SWSS_BROWSER_RENDER()
+  }
+  
+
+ 
