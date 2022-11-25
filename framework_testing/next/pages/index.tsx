@@ -1,9 +1,8 @@
 
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
- 
-
 import SWTag from 'southwind-react'
+import { useState } from 'react'
 
 export default function Home() {
   let str = `
@@ -15,6 +14,8 @@ export default function Home() {
 
   `
 
+  const [test, setTest] = useState(false)
+
   return (
     <div >
       --
@@ -22,7 +23,11 @@ export default function Home() {
       <SWTag code={str}/>
       <h2>Test</h2>
 
-      <div className='bg-reg-5'>This should have a red background</div>
+      <div className='bg-red-5'>This should have a red background</div>
+
+      <button onClick={() => setTest(!test)}>Toggle</button>
+
+      { test ?  <div className='bg-blue-8 fc-white p-2'>Testing dynamic elements</div> : '' }
     </div>
   )
 }

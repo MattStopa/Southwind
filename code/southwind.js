@@ -1,3 +1,5 @@
+const browserRender = require('./browserRender.js')
+
 class __SWCSS_PARSER {
   alreadyInCodeSegement = false;
   braceList = []; // List of all the code within braces.
@@ -456,6 +458,7 @@ class SWCSS {
 
 if (typeof window !== 'undefined') {
   window.SWCSS = SWCSS
+  browserRender()
 }
 
 
