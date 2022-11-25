@@ -1,0 +1,15 @@
+{
+  "name": "southwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./code/tests.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
+}
