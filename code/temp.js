@@ -1,4 +1,4 @@
-class Banana {
+class Bana33na {
   hi() { 
     alert("HI")
   }
@@ -7,4 +7,3 @@ class Banana {
 
 
 module.exports =  Banana
-Banana()

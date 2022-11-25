@@ -1,7 +1,6 @@
 const SWCSS = require('./southwind.js')
 
 function __SWSS_BROWSER_RENDER() {
-
     document.querySelector('body').style['display'] = 'none'
 
     let alreadyCalled = false;
@@ -48,14 +47,9 @@ function __SWSS_BROWSER_RENDER() {
       document.querySelectorAll('[rel="ext"]').forEach((a) => {
         content = SWCSS.processSWScript(a.innerHTML, content);
         cssDrop.innerHTML += content;
-        console.log("GOT HERE---------")
-        // a.setAttribute('data-processed', true);
       });
-      console.log("FINISHED")
 
-      // setTimeout(() => { 
-        // document.querySelector('body').style['display'] = 'block'
-      // }, 1000)
+      document.querySelector('body').style['display'] = 'block'
 
 
       /*
