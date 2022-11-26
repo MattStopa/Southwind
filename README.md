@@ -54,11 +54,21 @@ After
 | fc-blue-x    | Font Color    | `fc-color-1` to `fc-color-9` |
 | lh-x         | Line Height   | `lh-0` to `lh-(any)` |
 
-#### Fonts & Text
+#### Margin and Padding
+
+*Note these also support negative values `-mt-5`*
 
 | Tag           | For           | Range | 
 | ------------- | ------------- | -------- | 
-| fs-x         | Font Size     | `fs-1` to `fs-(any)` | 
+| mt-x         | Margin Top     | `mt-0` to `mt-(any)` | 
+| ml-x         | Margin Left     | `ml-0` to `ml-(any)` | 
+| mr-x         | Margin Right    | `mr-0` to `mr-(any)` | 
+| mb-x         | Margin Bottom     | `mb-0` to `mb-(any)` | 
+| pt-x         | Padding Top     | `pt-0` to `pt-(any)` | 
+| pl-x         | Padding Left     | `pl-0` to `pl-(any)` | 
+| pr-x         | Padding Right    | `pr-0` to `pr-(any)` | 
+| pb-x         | Padding Bottom     | `pb-0` to `pb-(any)` | 
+
 | fw-x         | Font Weight   | `fw-1` to `fw-9` |
 | fc-blue-x    | Font Color    | `fc-color-1` to `fc-color-9` |
 | lh-x         | Line Height   | `lh-0` to `lh-(any)` |
