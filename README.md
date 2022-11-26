@@ -45,10 +45,15 @@ After
 
 **React/Solid**
 
+    // You need both imports for now.
+    import Southwind from "southwind";
     import SW from "southwind/react-component";
 
     // Add this tag and feed it your Southwind script. Generally you should put this in another file and give it as a variable.
     <SW code={`.component { bg-red-8 fc-white fs-55 } `} />
+
+
+Playground: https://codesandbox.io/s/vigorous-ellis-zv4v9v
 
 **Using as a Javascript function**
     
