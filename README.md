@@ -28,11 +28,37 @@ After
 
 - 😎 **Any Values Work** - Instead of having to remember Tailwind's intervals Southwind uses a simple 1-infinite number system. ex.`fs-250 mt-17`
 - 🌍 **Easy Global Changes** - Want to change all your buttons across the site? No problem! Just change the style in your Southwind file and it propgates globally!
-- 💁 **Benefits of SASS** - SASS can make organizing your code extremely helpful. You can
-nest as many levels deep as needed, it makes it easy to change everything related to one component in one place.
+- 💁 **Benefits of SASS** - SASS can make organizing your code extremely helpful. You can nest as many levels deep as needed, it makes it easy to change everything related to one component in one place.
 - 👨‍💻️ **Uncluttered HTML** - Tailwind is fantastic but it can leave your HTML littered with dozens of classes, sometimes all on the same div. You can still use inline classes here but for the heavy lifting it's easy to use Southwind to make reusable components.
 - 👨‍🏫️ **Familiar Class Names** - If you know CSS then Southwind will be easy. Font Size is `fs-x` (x = 1-to-infinite) , `fw-x` (x = 1-8) ,Text align center is `ta-c`.
 - 🎸 **Themeable** - Want to use multiple projects with the same theme? Now you can. Your Southwind file can go anywhere.
 - 🎮 **Works with Plain HTML and all Frameworks** - All you have to do is include Southwind javascript file and you are good to go. Use it VIA CDN or NPM package. It also has a native **React** component (works with **Solid** too!)
 - ⌨️ **Less Typing** - Tailwind can be a bit verbose, we aim for fewer keystrokes.
 - 🌊 **Supports Responsive Layouts And Focus States** - You can use SW to easily accomplish this with the `sm:mt-5` prefix. You can also support hover it through native CSS with `.some-class:hover { bg-blue-5}` or `hover:bg-blue-5`
+- 👶 **Small Size** - The distributed version is only 5.7k!
+
+## Installation 
+
+`TDB`
+
+## Basics
+
+*an x below means you can use any number*
+
+#### Fonts & Text
+
+| Tag           | For           | Range | 
+| ------------- | ------------- | -------- | 
+| fs-x         | Font Size     | `fs-1` to `fs-(any)` | 
+| fw-x         | Font Weight   | `fw-1` to `fw-9` |
+| fc-blue-x    | Font Color    | `fc-color-1` to `fc-color-9` |
+| lh-x         | Line Height   | `lh-0` to `lh-(any)` |
+
+#### Fonts & Text
+
+| Tag           | For           | Range | 
+| ------------- | ------------- | -------- | 
+| fs-x         | Font Size     | `fs-1` to `fs-(any)` | 
+| fw-x         | Font Weight   | `fw-1` to `fw-9` |
+| fc-blue-x    | Font Color    | `fc-color-1` to `fc-color-9` |
+| lh-x         | Line Height   | `lh-0` to `lh-(any)` |
