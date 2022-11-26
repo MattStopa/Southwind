@@ -1,6 +1,6 @@
 {
   "name": "southwind",
-  "version": "0.5.0",
+  "version": "0.5.2",
   "description": "CSS Framework that combines the best of Tailwind and SASS",
   "repository": "https://github.com/MattStopa/Southwind",
   "main": "code/southwind.js",

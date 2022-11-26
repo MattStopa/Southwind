@@ -39,7 +39,25 @@ After
 
 ## Installation 
 
-`TDB`
+    npm install southwind
+
+## Usage
+
+**React/Solid**
+
+    import SW from "southwind/react-component";
+
+    // Add this tag and feed it your Southwind script. Generally you should put this in another file and give it as a variable.
+    <SW code={`.component { bg-red-8 fc-white fs-55 } `} />
+
+**Using as a Javascript function**
+    
+    // Use as a script as below or just add the dist/swcss.js as an external script
+    import Southwind from "southwind"
+
+    Southwind.processSWScript('`.component { bg-red-8 fc-white fs-55 } ')
+
+    
 
 ## Basics
 

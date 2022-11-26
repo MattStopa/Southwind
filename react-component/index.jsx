@@ -1,10 +1,10 @@
 import * as React from 'react'
 const SW = require('../../')
 
-let Greet = (props) => (
+let Main = (props) => (
   <>
     <style dangerouslySetInnerHTML={{__html: SW.processSWScript(props.code || '')}}></style>
   </>
 )
 
-export default Greet
+export default Main
